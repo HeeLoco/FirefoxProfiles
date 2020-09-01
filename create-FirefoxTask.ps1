@@ -10,7 +10,9 @@ $myUserName = $env:USERNAME;
 $myTaskName = "Copy Firefox Profiles on LogON";
 
 $myPowerShellScriptPath = "C:\Users\" + $myUserName + "\OneDrive\some Configs and Profiles\Firefox\copy-FirefoxProfiles.ps1"
-$mySchtasksParamTR = "powershell.exe -ExecutionPolicy Bypass -File 'C:\Users\myusername\OneDrive\some Configs and Profiles\Firefox\copy-FirefoxProfiles.ps1'"
+# $myPowerShellScriptPath dont work in the params. Need to fix(format correctly)!
+# So it is currently simply inserted as text into the var
+$mySchtasksParamTR = "powershell.exe -ExecutionPolicy Bypass -File 'C:\Users\myusername\OneDrive\some Configs and Profiles\Firefox\copy-FirefoxProfiles.ps1'" #need a fix
 
 #check for admin
 $currentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
