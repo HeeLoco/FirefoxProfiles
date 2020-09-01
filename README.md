@@ -11,5 +11,23 @@ To achieve this I created a script that copies the files from "C:\Users\" + $myU
 
 I created another script so that this script can be easily and quickly integrated into the Windows Task Scheduler. This script creates a basic task and needs further settings in the Task Scheduler.
 
-### Recover one or profiles
+## Recommended presettings
+- call the Firefox Profile manager
+- create or rename some profiles (for better differentiation)
+- check links above
+
+## Usage
+- Change var $mySchtasksParamTR (in create-FirefoxTask.ps1) to the script location of copy-FirefoxProfiles.ps1 (need to be fixed)
+- Change var $myOneDriveDestinationPath (in copy-FirefoxProfiles.ps1) if needed
+- Use the .bat file to create a Task easily without changing the execution policy
+- Log off/on and check the logfile in $myOneDriveDestinationPath 
+
+
+## Recover one or profiles
 - manually, check the links above
+
+## Note 
+I am aware that an automatic sync of Firefox exists. 
+However, I use several profiles and it does not suit to my handling. 
+For example I use one profile as admin user, company user, private user and several test accounts.
+I also have the possibility to create my own standard profile for certain scenarios and recreate it again and again. 
