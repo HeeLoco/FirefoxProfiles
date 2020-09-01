@@ -20,6 +20,7 @@ I created another script so that this script can be easily and quickly integrate
 - Change var $mySchtasksParamTR (in create-FirefoxTask.ps1) to the script location of copy-FirefoxProfiles.ps1 (need to be fixed)
 - Change var $myOneDriveDestinationPath (in copy-FirefoxProfiles.ps1) if needed
 - Use the .bat file to create a Task easily without changing the execution policy
+- Edit further desired settings in the Task Scheduler
 - Log off/on and check the logfile in $myOneDriveDestinationPath 
 
 
