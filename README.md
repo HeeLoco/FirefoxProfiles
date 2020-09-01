@@ -1,5 +1,5 @@
 # FirefoxProfiles
-Firefox offers to use different profiles. 
+Firefox offers to use different profiles. Simply great for my needs!
 
 - https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles 
 - https://support.mozilla.org/de/kb/firefox-profile-erstellen-und-loeschen
