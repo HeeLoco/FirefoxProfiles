@@ -14,6 +14,7 @@ I created another script so that this script can be easily and quickly integrate
 ## Recommended presettings
 - call the Firefox Profile manager
 - create or rename some profiles (for better differentiation)
+- change path to desired OneDrive profile path
 - check links above
 
 ## Usage
